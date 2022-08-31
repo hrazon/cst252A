@@ -1,0 +1,8 @@
+.cover {
+  background-color: lightpink; /*this will make the background light pink at the top*/
+}
+
+.body {
+  background-color: ivory; /*this will make this specific box ivory color*/
+  border-style: dotted; /*this make this border dotted */
+}
