@@ -3,10 +3,19 @@
 //* Created: 10/04/2022
 //* (c) Copyright by Blub Corp.
 
-// function to add text to given element
-function main() {
-    // get html element by id
-    outputElement = document.getElementById("output");
-    // change contents of element
-    outputElement.innerHTML = "Yo, 'sup?";
+function ready (){
+  let outputEl= document.querySelector("#output")
+  let oneEl= document.createElement("button")
+  let twoEl= document.createElement("button")
+
+
+  let parent = document.querySelector("output")
+  parent.appendChild(oneEl)
+  oneEl.textContent='Click me!';
+  oneEl.style.color= 'blue'
+
+  parent.appendChild(twoEl)
+  twoEl.textContent= 'Click me!';
+  twoEl.style.backgroundcolor= 'red'
+  twoEl.style.color='white'
 }
