@@ -1,7 +1,7 @@
 //**
 //* Author: Heaven Razon
 //* Created: 10/04/2022
-//* (c) Copyright by Blub Corp.
+//* CST 252
 
 function ready (){
   let outputEl= document.querySelector("#output")
