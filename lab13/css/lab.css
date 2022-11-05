@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+.box {
+  margin: 20px;
+  padding: 25px;
+  border-top: solid 1px #000000;
+  border-bottom: solid 1px #000000;
+  border-left: dashed 1px #000000;
+  border-right: dashed 1px #000000;
+  border-radius: 50px;
+  position: absolute;
+	background-color: rgba(255, 20, 147, 0.4);
+	width: 100px;
+	height: 100px;
+}
+
+p {
+        text-transform: lowercase;
+        font-size: 1.5em
+        word-spacing: 0.5em;
+        font-family: times new roman;
+        padding-bottom: 0;
+        margin-bottom: 0.25em;
+        color:ivory;
+        text-align: center
+
+}
+
+h1  {
+        font-family: Oleo Script Swash Caps;
+        display: block;
+        text-transform: lowercase;
+        font-size: 1.6em;
+        text-shadow: 0 0 3px #000;
+        font-weight: bold;
+        letter-spacing: 0.01em;
+        word-spacing: 0.1em;
+        color: ivory;
+
+      }
+
+      h2 {
+            text-decoration: underline overline wavy #662549;
+            font-family: Sarina;
+            display: block;
+            text-transform: lowercase;
+            text-align: center;
+            line-height: 100vh;
+            font-size: 4rem;
+            text-shadow: 0 0 2px #000;
+            font-weight: bold;
+            letter-spacing: 0.01em;
+            word-spacing: 0.1em;
+            color: #f2b352
+      }

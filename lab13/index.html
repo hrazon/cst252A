@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 13: Animation</title>
+<link rel="stylesheet" href="css/lab.css"/>
+<script src="js/lab.js"></script>
+</head>
+<body>
+
+<div class="box fadeAnimation">
+<h1>Lab 13</h1>
+</div>
+
+<div class = "text">
+	<h2> Scroll down for more!</h2>
+		<p> Challenge: We had to create animations for this lab.</p>
+		<p> Problems: I ran into multiple problems. I watched many tutorial indlucing
+			the class ones and they did not seem to work nor help me.</p>
+		<p> Solution: You can see the box moving up on top and if you click the bottom
+			left corner that small loading sign will expand across the page and move.</p>
+</div>
+
+  <meta charset="utf-8">
+  <style>
+    progress {
+      width: 5%;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <progress id="elem"></progress>
+
+  <script>
+    elem.onclick = function() {
+      animate({
+        duration: 1000,
+        timing: function(timeFraction) {
+          return timeFraction;
+        },
+        draw: function(progress) {
+          elem.style.width = progress * 100 + '%';
+        }
+      });
+    };
+  </script>
+</body>
+</html>
